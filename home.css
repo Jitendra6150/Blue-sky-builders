@@ -1,0 +1,862 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#head{
+    background-color: lightgray;
+}
+#head .ino{
+    border-right: 2px solid blue;
+}
+#modalId .modal-header,.modal-body{
+    background-color: lightgray;
+}
+#modalId1 .modal-header,.modal-body{
+    background-color: lightgray;
+}
+#modalId .modal-body button{
+    background-color: green;
+    color: white;
+    border: none;
+}
+#modalId1 .modal-body button{
+    background-color: green;
+    color: white;
+    border: none;
+}
+#modalId .modal-body button:hover{
+    background-color: blue;
+    color: white;
+}
+#modalId1 .modal-body button:hover{
+    background-color: blue;
+    color: white;
+}
+
+#excell{
+    background-color: blue;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    color: lightgray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    border-bottom: 2px solid green;
+}
+.home{
+    background-image: url(assets/2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.home h1{
+    font-weight: 900;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;      
+    color: white;
+}
+.home p{
+    font-style: oblique;
+    text-align: justify;
+    color: white;
+}
+.home button{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    font-weight: 700;
+    border: 2px solid orange;
+}
+.home button:hover{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    font-weight: 700;
+}
+.home span1{
+    color: orange;
+}
+#quality div{
+    display: inline-block;
+}
+#quality .top{
+    width: 300px;
+    height: 200px;
+    padding: 30px;
+    background-color: blue;
+    color: white;
+    margin-top: 10px;
+    border: none;
+}
+#quality .best{
+    width: 300px;
+    height: 200px;
+    border: none;
+    padding: 30px;
+    background-color: lightgray;
+    color: black;
+    margin-top: 10px;
+}
+#quality .low{
+    width: 300px;
+    height: 200px;
+    border: none;
+    padding: 30px;
+    background-color: blue;
+    color: white;
+    margin-top: 10px;
+}
+#quality .quality1 p{
+     color: white;
+}
+
+#need .about h1{
+    color: blue;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#need .about h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#need .your h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#need .your h3{
+    font-size: 16px;
+}
+#need .your ul{
+      margin-top: 50px;
+}
+#need .your li{
+    list-style: none;
+}
+#need .your ul h4::before{
+    content: "\272E";
+    color: green;
+    margin-left: -20px;
+    margin-right: 10px;
+}
+#need .team li{
+    list-style: none;
+}
+#need .team ul h4::before{
+    content: "\272E";
+    color: green;
+    margin-left: -20px;
+    margin-right: 10px;
+}
+.image img{
+    border-radius: 30px;
+}
+
+#project .recent h1{
+    color: blue;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#project .recent h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#project .recent1 .card{
+    box-shadow: 2px 5px 5px 2px grey;
+    background-color: lightgray;
+}
+#project .recent1 .card:hover{
+    box-shadow: 2px 5px 5px 2px black;
+}
+#project .recent1 .card button{
+   background-color: green;
+   color: white;
+}
+#project .recent1 .card button:hover{
+    background-color: blue;
+    color: white;
+}
+.bright h5{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.bright button{
+    width: 50px;
+    height: 30px;
+    background-color: orange;
+    color: black;
+    border-radius: 10px;
+}
+
+#with .their .renovat .zeee h1{
+    font-size: 44px;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#with .their .renovat .zeee h5{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#with .their .renovat ul h5{
+    font-size: 16px;
+}
+#with .their .renovat ul li{
+    list-style: none;
+}
+#with .their .renovat ul h5::before{
+    content: "\2714";
+    margin-right: 10px;
+}
+
+#service .serve{
+    border-right: 2px solid black;
+}
+#service .unique h5{
+    color: blue;
+}
+#service .unique h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#service .unique .text h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 10px;
+}
+
+#construct h5{
+    font-size: 16px;
+    margin-top: 8px;
+    color: black;
+}
+#construct .card{
+    box-shadow: 2px 5px 5px 2px grey;
+    background-color: lightgray;
+}
+#construct .card:hover{
+    box-shadow: 2px 5px 5px 2px black;
+}
+#construct button{
+    width: 80px;
+    height: 30px;
+    border: none;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+}
+#construct button:hover{
+    width: 80px;
+    height: 30px;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+
+#talent .member h5{
+    color: blue;
+}
+#talent .member h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#talent .member p{
+    font-size: 14px;
+}
+#talent .skill h3{
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+}
+
+#efficient .seam h5{
+    color: blue;
+}
+#efficient .seam h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#efficient .seam button{
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+}
+#efficient .seam button:hover{
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+}
+
+#latest h5{
+    color: blue;
+}
+#latest h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#agust .card{
+    background-color: white;
+    box-shadow: 2px 2px 10px 5px lightgray;
+}
+#agust .card h5{
+    font-size: 12px;
+    color: black;
+}
+#agust .card a{
+    text-decoration: none;
+    color: blue;
+}
+.client{
+    background-color: rgb(39, 38, 38);
+    color: white;
+}
+.client p{
+    color: white;
+}
+.client h1{
+    color: blue;
+}
+.comment{
+    border-top: 2px solid grey;
+}
+.Contact{
+    width: 100%;
+    height: 100vh;
+}
+.Contact button{
+    background-color: green;
+    color: white;
+}
+
+#forms input{
+    background-color: transparent;
+    border: 1px solid black;
+}
+#forms textarea{
+    background-color: transparent;
+    border: 1px solid black;
+}
+#forms input:hover{
+    color: black;
+    box-shadow: 2px 2px 5px 2px blue;
+}
+#forms textarea:hover{
+    color: black;
+    box-shadow: 2px 2px 5px 2px blue;
+}
+
+#subs .cribe .mate{
+    margin-bottom: -110px;
+    background-color: green;
+    position: sticky;
+    z-index: 1;
+}
+#subs .cribe .mate h1{
+    font-size: 52px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+#subs .cribe .mate input{
+    height: 50px;
+    width: 400px;
+    margin-left: -200px;
+}
+#subs .cribe .mate button{
+    height: 50px;
+    width: 100px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+p{
+    color: black;
+}
+
+footer {
+    background-color: blue;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.footer-links {
+    margin-top: 20px;
+}
+.footer-links a{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.social-icons a{
+    margin-right: 20px;
+    color: white;
+}
+.footer-links a:hover {
+    text-decoration: underline;
+}
+footer p{
+    color: white;
+}
+
+#require .plate{
+    display: inline-block;
+    margin-right: 50px;
+    border: 2px solid rgb(190, 186, 186);
+    padding: 10px;
+    box-shadow: 2px 2px 5px 2px gray;
+}
+#require .start{
+    margin-left: 50px;
+}
+#require .start h2{
+    font-size: 20px;
+}
+#require .start p{
+    font-size: 12px;
+}
+
+#labor .owner p{
+    margin-left: -250px;
+}
+
+#labor .owner h5{
+    font-size: 12px;
+    color: blue;
+}
+#labor .owner h1{
+    font-size: 48px;
+}
+#labor .owner img{
+    width: auto;
+    height: 150px;
+}
+
+#one1 .col-2{
+      border: 2px solid rgb(197, 193, 193);
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin-right: 15px;
+}
+#one1 .col-2:hover{
+      background-color: green;
+      color: white;
+}
+
+#two .two1 .two2 .two3 .contact2{ 
+    position: relative;
+    top: 50px;
+}
+#two .two1 .two2 .two3 .contact3{ 
+    position: relative;
+    top: 80px;
+}
+#two .two1 .two2 .two3 .contact1 h5{ 
+    color: blue;
+}
+#two .two1 .two2 .two3 .contact1 h1{ 
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#two .one2 h5{
+    color: blue;
+}
+#two .one2 h1{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#four .four1 button{
+    width: 150px;
+    height: 40px;
+}
+.four2 iframe{
+    width: 400px;
+    height: 480px;
+}
+#four .four3 input{
+    border: 1px solid black;
+}
+#four .four3 textarea{
+    border: 1px solid black;
+}
+#four .four3 button{
+    background-color: green;
+    color: white;
+}
+#four .four3 button:hover{
+    background-color: blue;
+    color: white;
+}
+
+#seven{
+    background-image: url(assets/backgrond.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+}
+#seven h1{
+    color: white;
+}
+
+.made input{
+    border: 1px solid black;
+}
+.bright3 .col-4{
+    border: 1px solid black;
+    padding: 1px;
+}
+#bright1 .bright4{
+    border-left: 2px solid black;
+    padding: 10px;
+}
+#micro p{
+   text-align: justify;
+}
+
+@media(max-width:600px){
+    .home h1{
+        font-size: 20px;
+        margin-top: 20px !important;
+    }
+    .home p{
+        font-size: 8px !important;
+    }
+    .home button{
+        width: 70px !important;
+        height: 30px !important;
+        font-weight: 500 !important;
+    }
+    .home span{
+        font-size: 10px;
+    }
+    .home{
+        height: 50vh;
+    }
+    #quality div{
+        margin-top: -100px;
+    }
+    #quality .top{
+        width: 250px !important;
+        height: 120px !important;
+        padding: 10px;
+    }
+    #quality .top h3{
+       font-size: 14px !important;
+    }
+    #quality .top p{
+        font-size: 7px !important;
+        text-align: start;
+    }
+    #quality .best{
+        width: 250px !important;
+        height: 120px !important;
+        padding: 10px;
+    }
+    #quality .best h3{
+       font-size: 14px !important;
+    }
+    #quality .best p{
+        font-size: 7px !important;
+    }
+    #quality .low{
+        width: 250px !important;
+        height: 120px !important;
+        padding: 10px;
+    }
+    #quality .low h3{
+       font-size: 14px !important;
+    }
+    #quality .low p{
+        font-size: 7px !important;
+    }
+
+    #need .team h4{
+        font-size: 18px;
+    }
+    #need .team p{
+        font-size: 10px;
+    }
+
+    #project .recent h1{
+        font-size: 24px;
+    }
+    #project .recent h2{
+        font-size: 18px;
+    }
+
+    .bright h5{
+        font-size: 13px;
+    }
+
+    #talent .member p{
+        font-size: 8px !important;
+    }
+    #talent .member h1{
+        font-size: 18px;
+    }
+    #efficient .seam p{
+        font-size: 10px;
+    }
+    #latest p{
+        font-size: 10px;
+    }
+    #agust .card p{
+        font-size: 12px;
+    }
+
+    .Contact{
+        height: 100vh;
+    }
+
+    #head{
+        display: none;
+    }
+
+    #subs .cribe .mate h1{
+        font-size: 18px !important;
+    }
+    #subs .cribe .mate input{
+        height: 30px !important;
+        width: 100px !important;
+        margin-left: -100px !important;
+    }
+    #subs .cribe .mate button{
+        height: 30px !important;
+        width: 70px !important;
+    }
+
+    #with .their .renovat ul h5{
+        font-size: 10px !important;
+    }
+
+    #with .their .renovat .zeee h1{
+        font-size: 32px;
+    }
+    #with .their .renovat .zeee h5{
+        font-size: 18px;
+    }
+    #with .their .renovat .zeee p{
+        font-size: 12px;
+    }
+
+    #require .start h2{
+        font-size: 12px;
+    }
+    #require .start p{
+        font-size: 6px;
+    }
+
+    #require .start{
+        margin-left: 60px !important;
+    }
+    #labor .owner p{
+        font-size: 8px !important;
+    }
+
+    #labor .owner p{
+        margin-left: -100px !important;
+        font-size: 12px;
+    }
+    #labor .owner h1{
+        font-size: 16px !important;
+    }
+    #labor .owner h5{
+        font-size: 8px;
+    }
+    #labor .owner img{
+        width: auto;
+        height: 100px;
+    }
+    #require .plate{
+        border: 2px solid black;
+        width: 132px;
+    }
+    #require .plate h2{
+        font-size: 16px;
+    }
+    #require .plate p{
+        font-size: 8px;
+    }
+    #two .two1 .two2 .two3 .contact2{ 
+        position: relative;
+        top: 50px;
+    }
+    #two .two1 .two2 .two3 .contact3{ 
+        position: relative;
+        top: 80px;
+    }
+
+    #two .two1 .two2 .two3 .contact2{ 
+        position: relative;
+        top: 20px;
+    }
+    #two .two1 .two2 .two3 .contact3{ 
+        position: relative;
+        top: 20px;
+    }
+
+    #two .one2 p{
+        font-size: 10px !important;
+    }
+
+    .four2 iframe{
+        width: 350px !important;
+        margin-top: 10px;
+    }
+
+    #service .unique h1{
+        font-size: 16px !important;
+    }
+
+    #bright1 .bright2 h5{
+        font-size: 14px;
+         
+    }
+    #bright1 .bright2 h2{
+        font-size: 18px; 
+    }
+
+    #bright1 .bright4 h5{
+        font-size: 16px;
+    }
+    #bright1 .bright4 p{
+        font-size: 10px;
+    }
+    
+}
+@media(max-width:1000px){
+    .home h1{
+        margin-top: 5px;
+    }
+    .home p{
+        font-size: 12px;
+        margin-top: 20px;
+    }
+    .home button{
+        width: 120px;
+        height: 40px;
+        font-weight: 600;
+    }
+    #quality .top{
+        width: 280px;
+        height: 150px;
+        padding: 10px;
+    }
+    #quality .top h3{
+       font-size: 16px;
+    }
+    #quality .top p{
+        font-size: 10px;
+        text-align: start;
+    }
+    #quality .best{
+        width: 280px;
+        height: 150px;
+        padding: 10px;
+    }
+    #quality .best h3{
+       font-size: 16px;
+    }
+    #quality .best p{
+        font-size: 10px;
+    }
+    #quality .low{
+        width: 280px;
+        height: 150px;
+        padding: 10px;
+    }
+    #quality .low h3{
+       font-size: 16px;
+    }
+    #quality .low p{
+        font-size: 10px;
+    }
+
+    #talent .member p{
+        font-size: 10px;
+    }
+
+    #subs .cribe .mate h1{
+        font-size: 24px;
+    }
+    #subs .cribe .mate input{
+        height: 40px;
+        width: 200px;
+        margin-left: -120px;
+    }
+    #subs .cribe .mate button{
+        height: 40px;
+        width: 70px;
+    }
+
+    #require .start{
+        margin-left: 80px;
+    }
+    #labor .owner p{
+        margin-left: -130px;
+        font-size: 12px;
+    }
+
+    #labor .owner h1{
+        font-size: 24px;
+    }
+
+    #two .two1 .two2 .two3 .contact2{ 
+        position: relative;
+        top: 20px;
+    }
+    #two .two1 .two2 .two3 .contact3{ 
+        position: relative;
+        top: 20px;
+    }
+    #two .one2 p{
+        font-size: 12px;
+    }
+
+    .four2 iframe{
+        margin-top: 10px;
+        width: 100% !important;
+    }
+}
+
+@media(max-width:1200px){
+    .home p{
+        font-size:13px;
+    }
+
+    .bright h5{
+        font-size: 10px;
+        margin-top: 8px;
+    }
+
+    #service .unique .text h1{
+        margin-top: 20px;
+    }
+    #service .unique h1{
+        font-size: 24px;
+    }
+    .four2 iframe{
+        width: 300px;
+    }
+    
+    #bright1 .bright2 h2{
+        font-size: 22px; 
+    }
+}
+
+
+
+

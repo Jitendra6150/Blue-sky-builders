@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Kenia&family=Permanent+Marker&family=Vina+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="container-fluid p-0" id="excell">
+         <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img style="width: 200px; height: 100px;" class="w-100" src="assets/logoo.png" alt="">
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavId"
+                    aria-controls="collapsibleNavId"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavId">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active me-5" href="index.html" aria-current="page">
+                                <strong>Home</strong>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active me-5" href="about.html" aria-current="page">
+                               <strong>About us</strong>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active me-5" href="service.html" aria-current="page">
+                                <strong>Services</strong>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active me-5" href="project.html" aria-current="page">
+                                <strong>Projects</strong>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active me-5" href="news.html" aria-current="page">
+                                <strong>News</strong>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active me-5" href="contact.html" aria-current="page">
+                                <strong>Contact</strong>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+         </nav>
+    </header>
+
+    <section class="container p-5" id="two">
+         <div class="container p-3 text-center one2">
+            <h5>contact</h5>
+            <h1>Get In Touch</h1>
+            <p>In the construction industry, effective communication is key. <br> Whether discussing plans or addressing concerns, staying in touch <br> ensures projects run smoothly and deadlines are met efficiently.</p>
+         </div>
+         <div class="two1">
+             <div class="row justify-content-center align-items-center g-2">
+                <div class="col-12 col-lg-6">
+                     <img class="w-100" src="assets/contact1.png" alt="">
+                </div>
+                <div class="col-12 col-lg-6 two2">
+                     <div class="two3 p-5">
+                        <div class="contact1">
+                            <h5>Do you have a project? let’s start</h5>
+                            <h1>Contact with us</h1>
+                            <p>For inquiries or collaborations in the construction field, reach out to us via email or phone. We're eager to discuss your project needs and provide expert assistance.</p>
+                         </div>
+                         <div class="contact2">
+                            <h5>Office Address</h5>
+                            <p>Kakinada Town <br> 434 temple street. <br> A.P, <br> India</p>
+                         </div>
+                         <div class="contact3">
+                            <h5>Contact Info</h5>
+                            <p>Phone: +91 9010875443 <br>
+                                Email: info@example.com <br>
+                                Web: www.example.com</p>
+                         </div>
+                     </div>
+                </div>
+             </div>
+         </div>
+    </section>
+
+    <section class="container p-5" id="four">  
+         <div class="four1">
+            <div class="row">
+                <div class="col-12 col-lg-8 four3">
+                    <form action="submit.html" name="contact" onsubmit="return validation()">
+                        <div class="row justify-content-center align-items-center g-2">
+                            <div class="col-12 col-lg-6">
+                                <div class="w-100 mt-3">
+                                    <input type="text" class="form-control" name="username" id="username" placeholder="Enter Your Name"/>
+                                </div>
+                                <p id="userNote"></p>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <div class="w-100 mt-3">
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="Enter Your Email"/>
+                                </div>
+                                <p id="emailNote"></p>
+                            </div>
+                        </div>
+                        <div class="w-100 mt-3">
+                            <input type="tel" class="form-control" name="mobile" id="mobile" placeholder="Enter Your PhoneNumber"/>
+                        </div>
+                        <p id="mobileNote"></p>
+                          <textarea style="background-color: transparent; height: 200px;" class="form-control mt-4" type="text" rows="3" placeholder="Message"></textarea>
+                          <div class="text-center mt-4">
+                            <button type="submit" class="btn" style="width: 100%; height: 50px; border-radius: 30px;">
+                                Submit
+                            </button>
+                         </div>
+                      </form>
+                </div>
+                <div class="col-12 col-lg-4 four2">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5427.39345850686!2d82.24360826802445!3d16.99962850643124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3827ddaf59b4f7%3A0x92f8ddb9c89a4803!2sKakinada%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1711858774965!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+         </div>
+    </section>
+
+    <section class="container-fluid" id="subs">
+        <div class="container p-5 cribe">
+            <div class="container p-2 mate">
+               <div class="row justify-content-center align-items-center g-2">
+                   <div class="col-4 flex">
+                        <h1>Subscribe  <br> Now</h1>
+                   </div>
+                   <div class="col-4">
+                        <img style="width: auto; height: 80px;" class="" src="assets/line.png" alt="">
+                   </div>
+                   <div class="col-4 flex">
+                        <input class="" type="search" name="" id="" placeholder="To get update, Enter your email"><button>Submit</button>
+                   </div>
+                </div>
+            </div>
+        </div>
+   </section>
+
+   <footer class="container-fluid">
+       <div>
+           <div class="row justify-content-center align-items-center g-2 mt-5">
+               <div class="col-12 col-lg-6">
+                   <div class="footer-info">
+                       <h3>Contact Us</h3>
+                       <p>Construction Street, Kakinada, India</p>
+                       <p>Phone: +91 9100813443</p>
+                       <p>Email: bluskybuilders@gmail.com</p>
+                   </div>
+                   <div class="social-icons">
+                       <h5>Social media links</h5>
+                       <a href="#" target="_blank"><i class="bi bi-facebook"></i></a>
+                       <a href="#" target="_blank"><i class="bi bi-twitter"></i></a>
+                       <a href="#" target="_blank"><i class="bi bi-whatsapp"></i></a>
+                   </div>  
+               </div>
+               <div class="col-12 col-lg-6">
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="service.html">services</a>
+                    <a href="about.html">About Us</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                   <div>
+                       <p>&copy; 2024 Bluesky Builders. All rights reserved.</p>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </footer>
+</body>
+</html>
